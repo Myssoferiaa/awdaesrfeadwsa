@@ -1,14 +1,14 @@
 {
-  "geode": "v5.11.2",
+  "geode": "v3.9.0",
   "gd": {
     "win": "2.2081",
     "android": "2.2081",
     "mac": "2.2081",
     "ios": "2.2081"
   },
-  "version": "4.7.0",
   "id": "Myssoferiaa.predictive-input-buffer",
   "name": "Predictive Input Buffer",
+  "version": "4.7.0",
   "developer": "Myssoferiaa",
   "description": "Buffer de inputs con etapas ciclables con F6 (2/4/8/16 ticks, con valor distinto para wave).",
   "settings": {
