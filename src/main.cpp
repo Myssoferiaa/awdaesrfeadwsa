@@ -52,7 +52,7 @@ class $modify(BufferKeyboardDispatcher, CCKeyboardDispatcher) {
     // Listens for F6 keypress to cycle stages inside a level
     bool dispatchKeyboardMSG(enumKeyCodes key, bool down, bool keyIsARepeat) {
         if (down && key == KEY_F6) {
-            auto gameLayer = GJBaseGameLayer::get();
+            auto gameLayer = PlayLayer::get();
             if (gameLayer) {
                 g_currentStage = (g_currentStage + 1) % 5;
                 
